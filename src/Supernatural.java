@@ -18,7 +18,7 @@ public abstract class Supernatural {
 
     public int attack() {
         if (isAlive) {
-            System.out.println("Attacking with: " + this.damage);
+            //System.out.println("Attacking with: " + this.damage);
             return this.damage;
         }
         return 0;
@@ -34,6 +34,10 @@ public abstract class Supernatural {
 
     public boolean isAlive() {
         return isAlive;
+    }
+
+    public void setAlive(boolean alive) {
+        isAlive = alive;
     }
 }
 

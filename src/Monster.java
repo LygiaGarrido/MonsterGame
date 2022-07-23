@@ -12,11 +12,12 @@ public abstract class Monster extends Supernatural implements Strikeable {
     public void defend(int damage) {
 
         if(isAlive()){
-            setHealth(-damage) ;
-            return;
+            setHealth(-damage);
 
+        } if (getHealth()<=0){
+            setAlive(false);
+            setHealth(0);
         }
-
     }
 }
 
