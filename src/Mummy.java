@@ -5,7 +5,7 @@ public class Mummy extends Monster {
     private final int SELF_DAMAGE = -10;
 
     public Mummy(String type) {
-        super(type);
+        super(type, 30);
         this.numberOfAttacks = 0;
     }
 

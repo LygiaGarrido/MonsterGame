@@ -1,9 +1,9 @@
 public abstract class Monster extends Supernatural implements Strikeable {
 
 
-    public Monster(String type) {
+    public Monster(String type, int damage) {
 
-        super(type);
+        super(type, damage);
     }
 
 

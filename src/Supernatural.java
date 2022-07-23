@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public abstract class Supernatural {
 
     private int health;
@@ -5,10 +7,11 @@ public abstract class Supernatural {
     private int damage;
     private boolean isAlive;
 
-    public Supernatural(String type) {
+    public Supernatural(String type, int damage) {
         this.health = 100;
         this.isAlive = true;
         this.type = type;
+        this.damage = damage;
 
     }
 

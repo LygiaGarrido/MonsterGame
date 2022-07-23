@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,6 +9,13 @@ public class Main {
         Monster mummy = new Mummy("Mummy");
         Supernatural fairy = new Fairy("fairy");
         Supernatural witch = new Witch("witch");
+        Player player = new Player("Fábio", 5);
+
+        player.generateDeck();
+        //System.out.println(Arrays.toString(player.getDeck()));
+        player.pickACard();
+
+        player.attack();
 
         /*((Witch)witch).defend(10);
         System.out.println((witch.getHealth()));

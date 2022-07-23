@@ -2,7 +2,7 @@ public class Vampire extends Monster{
 
 
     public Vampire(String type) {
-        super(type);
+        super(type, 20);
     }
 
     @Override

@@ -1,6 +1,6 @@
 public class Witch extends Supernatural implements Strikeable{
     public Witch(String type) {
-        super(type);
+        super(type, 10);
     }
 
 
