@@ -32,6 +32,11 @@ public class Game {
 
     public boolean gameEnded(Player player, Player opponent) {
 
+        System.out.println(player.getDeadCards());
+        System.out.println(opponent.getDeadCards());
+        System.out.println(player.getAmountOfCards());
+        System.out.println(opponent.getAmountOfCards());
+
         if (player.getDeadCards() == player.getAmountOfCards()) {
             System.out.println(opponent.getName() + " Won!");
             return true;

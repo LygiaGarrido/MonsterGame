@@ -1,13 +1,13 @@
-public class Vampire extends Monster{
+public class Vampire extends Monster {
 
 
-    public Vampire(String type) {
+    public Vampire(MonsterType type) {
         super(type, 20);
     }
 
     @Override
     public int attack() {
-        if(isAlive()) {
+        if (isAlive()) {
             if (Random.generateRandom(1, 5) == 1 && getHealth() <= 90) {
                 setHealth(10);
                 System.out.println("I've bitten you! Muahahaha!");

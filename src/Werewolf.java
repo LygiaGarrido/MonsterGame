@@ -1,7 +1,7 @@
 public class Werewolf extends Monster {
 
 
-    public Werewolf(String type) {
+    public Werewolf(MonsterType type) {
         super(type, 10);
     }
 }

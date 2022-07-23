@@ -6,11 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e4552029-2bd2-4ee1-9f87-ae1daf2dd2c5" name="Changes" comment="First Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fairy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fairy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mummy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Supernatural.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Supernatural.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vampire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vampire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Werewolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Werewolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Witch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Witch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +45,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />

@@ -1,20 +1,20 @@
 public abstract class Monster extends Supernatural implements Strikeable {
 
 
-    public Monster(String type, int damage) {
+    public Monster(MonsterType type, int damage) {
 
         super(type, damage);
     }
 
 
-
     @Override
     public void defend(int damage) {
 
-        if(isAlive()){
+        if (isAlive()) {
             setHealth(-damage);
 
-        } if (getHealth()<=0){
+        }
+        if (getHealth() <= 0) {
             setAlive(false);
             setHealth(0);
         }

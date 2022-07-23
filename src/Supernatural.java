@@ -3,11 +3,11 @@ import java.util.Arrays;
 public abstract class Supernatural {
 
     private int health;
-    private String type;
+    private MonsterType type;
     private int damage;
     private boolean isAlive;
 
-    public Supernatural(String type, int damage) {
+    public Supernatural(MonsterType type, int damage) {
         this.health = 100;
         this.isAlive = true;
         this.type = type;
@@ -24,12 +24,16 @@ public abstract class Supernatural {
         return 0;
     }
 
-    public void setHealth(int health) {
-        this.health += health;
+    public int getDamage() {
+        return damage;
     }
 
     public int getHealth() {
         return health;
+    }
+
+    public void setHealth(int health) {
+        this.health += health;
     }
 
     public boolean isAlive() {
@@ -38,6 +42,10 @@ public abstract class Supernatural {
 
     public void setAlive(boolean alive) {
         isAlive = alive;
+    }
+
+    public MonsterType getType() {
+        return type;
     }
 }
 

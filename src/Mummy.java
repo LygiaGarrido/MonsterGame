@@ -1,17 +1,16 @@
 public class Mummy extends Monster {
 
+    private final int SELF_DAMAGE = -10;
     private int numberOfAttacks;
 
-    private final int SELF_DAMAGE = -10;
-
-    public Mummy(String type) {
+    public Mummy(MonsterType type) {
         super(type, 30);
         this.numberOfAttacks = 0;
     }
 
     @Override
     public int attack() {
-        if(isAlive()) {
+        if (isAlive()) {
             numberOfAttacks++;
             if (numberOfAttacks == 3) {
                 System.out.println("You unrolled!");
