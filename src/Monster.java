@@ -4,6 +4,7 @@ public abstract class Monster extends Supernatural implements Strikeable {
     public Monster(MonsterType type, int damage) {
 
         super(type, damage);
+
     }
 
 

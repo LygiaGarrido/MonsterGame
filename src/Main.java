@@ -27,7 +27,7 @@ public class Main {
          */
 
 
-        Game game = new Game("player", "opponent", 5);
+        Game game = new Game("player", "opponent", 3);
 
         game.start();
     }

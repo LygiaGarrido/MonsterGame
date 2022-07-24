@@ -2,5 +2,7 @@ public enum MonsterType {
 
     WEREWOLF,
     VAMPIRE,
-    MUMMY;
+    MUMMY,
+    WITCH,
+    FAIRY;
 }

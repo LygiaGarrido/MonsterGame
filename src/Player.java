@@ -43,7 +43,7 @@ public class Player {
     public void defend(int attackPower) {
         Monster card = pickACard();
         card.defend(attackPower);
-        System.out.println("defendendo com att " + attackPower);
+        System.out.println("defending with " + attackPower);
         if (attackPower == 0) {
             return;
         }
